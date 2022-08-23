@@ -1,19 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&display=swap');
 
 body {
-    background-image: url('https://wallpaperaccess.com/full/5231224.jpg');
+    background-image: url('https://wallpx.com/image/2021/08/forest-river-stream-trees-stones-artwork-digital-art.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     font-family: 'Catamaran', sans-serif;
     color: white;
     font-size: larger;
+    height: 100vh;
 }
 
-/* img[class="weather-icon"] {
-    height: 80px;
-    width: 80px;
-} */
+#search {
+    width: 15%;
+    padding: 5px 10px 10px 10px;
+    margin: 20px 0 0 10px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
 
-.city-name {
-    font-size: xx-large;
+#search:focus {
+    outline: none;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    font-size: medium;
+    opacity: 0.6;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+input {
+    font-size: medium;
+}
+
+button {
+    background-color: transparent;
+    border-style: none;
+    color: white;
+}
+
+.city-name, .main-temp {
+    font-size: 50px;
+    margin: 20px 0 0 10px;
+}
+
+.main-temp {
+    margin-top: -20px;
+}
+
+#container-one {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    margin: -10px 0 0 10px;
+}
+
+#container-two {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.right-container {
+    margin: -90px 20px 0 0;
+    font-size: x-large;
+    line-height: 50px;
 }
