@@ -6,5 +6,14 @@ body {
     background-size: cover;
     font-family: 'Catamaran', sans-serif;
     color: white;
-    font-size: large;
+    font-size: larger;
+}
+
+/* img[class="weather-icon"] {
+    height: 80px;
+    width: 80px;
+} */
+
+.city-name {
+    font-size: xx-large;
 }
